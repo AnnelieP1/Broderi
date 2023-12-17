@@ -1,0 +1,16 @@
+.kr{
+    text-align: left;
+}
+.referens{
+    text-align: left;
+}
+button{
+    width: 150px;
+    padding: 10px;
+    border-radius: 6px;
+    text-align: center;
+    justify-content: center;
+}
+.order{
+    text-align: left;
+}

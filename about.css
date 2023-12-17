@@ -1,0 +1,27 @@
+button {
+    background-color: #444;
+    color: #fff;
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    width: 200px;
+    
+    
+
+  }
+
+  #displayImage{
+    
+    width: 200px;
+    height: 220px;
+    
+  }
+  .hidden {
+    display: none;
+  }
+  img.buttonImage {
+    width: 200px;
+    height: 225px;
+}
+
