@@ -1,0 +1,91 @@
+body{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    font-family: Helvetica, sans-serif, Arial, "Times New Roman";
+    background-color: floralwhite;
+    width: 100%;
+    max-width: 1500px;
+}
+header{
+    display: flex;
+    height: 225px;
+    background-color: floralwhite;
+
+}
+#img{
+    margin-left: auto;
+    
+}
+header img:hover{
+    transform: scale(1.5);
+    transition: transform 0.3s ease;
+}
+.cross-stitch{
+    display: block;
+    justify-content: center;
+}
+h1{
+    text-align: center;
+    font-size: 50px;
+}
+p{
+    text-align: center;
+    font-size: 20px;
+    margin: 3em;
+    padding-bottom: 30px;
+}
+nav {
+    background-color: #444;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    
+}
+
+nav ul {
+    list-style: none;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+li{
+    border: 2px solid white;
+    width: 200px;
+    height: 80px;
+    text-align: center;
+    justify-content: center;
+    float: left;
+}
+.dropdown{
+    position: relative;
+    display: inline-block;
+    color: #444;
+}
+li a, .dropdown{
+    display: inline-block;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    align-items: center;
+    
+}
+.cart svg {
+    fill: #fff; 
+    width: 41px; 
+    height: 45px;
+}
+
+nav a.active{
+    color: #ffcc00;
+    
+}
